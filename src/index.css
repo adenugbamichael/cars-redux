@@ -15,9 +15,38 @@ body {
   font-weight: normal;
   font-stretch: normal;
   font-size: 15px;
-  line-height: 24px;
+  line-height: 25px;
   font-family: "Martel Sans", sans-serif !important;
   font-feature-settings: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-size: 24px !important;
+
+  line-height: 25px !important;
+}
+@media (max-width: 1180px) {
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-size: 24px !important;
+
+    line-height: 25px !important;
+  }
+}
+@media (max-width: 600px) {
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-size: 18px !important;
+
+    line-height: 20px !important;
+  }
 }
